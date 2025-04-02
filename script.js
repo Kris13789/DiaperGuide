@@ -159,7 +159,7 @@ function handleNext() {
         if (currentPartyStep < 2) {
             currentPartyStep++;
             updateStep();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+ setTimeout(()=>{window.scrollTo({ top: 0, behavior: 'smooth' })});
         } else {
             // Reset to start
             currentStep = 0;
@@ -170,7 +170,7 @@ function handleNext() {
     } else {
         currentStep++;
         updateStep();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+ setTimeout(()=>{window.scrollTo({ top: 0, behavior: 'smooth' })});
     }
 }
 
@@ -184,12 +184,12 @@ function handleBack() {
     } else if (currentStep === totalSteps - 1 && currentPartyStep > 0) {
         currentPartyStep--;
         updateStep();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+ setTimeout(()=>{window.scrollTo({ top: 0, behavior: 'smooth' })});
     } else {
         currentStep--;
         currentPartyStep = 0;
         updateStep();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+ setTimeout(()=>{window.scrollTo({ top: 0, behavior: 'smooth' })});
     }
 }
 
