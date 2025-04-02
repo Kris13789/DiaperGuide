@@ -169,6 +169,7 @@ function handleNext() {
     } else {
         currentStep++;
         updateStep();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
 
@@ -186,6 +187,7 @@ function handleBack() {
         currentStep--;
         currentPartyStep = 0;
         updateStep();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
 
