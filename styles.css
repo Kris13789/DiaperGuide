@@ -12,7 +12,7 @@ color: #232323;
 .app {
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 100dvh;
     padding: 20px;
 }
 
@@ -56,7 +56,9 @@ color: #ffcc14;
     display: block;
     margin-left: auto;
     margin-right: auto;
-padding: 16px 40px 16px 40px;
+padding: 0 40px;
+box-sizing: border-box;
+        line-height: 65px;
 background: #ffcc14;
     font-family: 'Love Ya Like A Sister', sans-serif;
 font-weight: 400;
@@ -99,7 +101,7 @@ animation: pulse 2s infinite;
 }
 
 .step-title {
-    margin: 15px 0;
+    margin: 0;
     font-family: 'Love Ya Like A Sister', sans-serif;
 font-weight: 400;
 font-size: 40px;
@@ -112,8 +114,8 @@ color: #232323;
 }
 
 .image-container img {
-    width: 100%;
-    max-width: 600px;
+    max-width: 100%;
+    max-height: 280px;
     margin-bottom: 15px;
     display: block; /* Ensures the image itself behaves as a block element */
     margin-left: auto; /* These two margin properties also help with centering */
@@ -147,11 +149,11 @@ color: #232323;
 .navigation {
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 12px;
     position: fixed;
     bottom: 0;
     left: 0;
-    padding: 20px;
+    padding: 12px;
     width: 100%;
     background: white;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); 
