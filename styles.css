@@ -85,6 +85,7 @@ animation: pulse 2s infinite;
     font-size: 16px;
     color: #232323;
     text-align: center;
+    line-height: 27px;
 }
 
 .current-step {
