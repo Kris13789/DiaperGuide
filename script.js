@@ -43,6 +43,8 @@ const steps = [
             "<span class='sub-step-title'>2. Place the Diaper</span>",
             "Slide the new diaper under the baby, making sure it's centered just right.",
             "<span class='sub-step-title'>3. Fasten the Diaper</span>"
+            "Pull the sides up and fasten it snugly, but not too tight. We want comfort, not a baby muffin top."
+
         ]
     },
     {
